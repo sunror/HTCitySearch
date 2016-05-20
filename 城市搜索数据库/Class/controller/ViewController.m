@@ -14,6 +14,7 @@
 #import "HTCitySelectIndexView.h"
 #import "HTDataBase.h"
 #import "UIColor+hex.h"
+#import "HTCollectionViewPlainLayout.h"
 
 #define kCurrentW [UIScreen mainScreen].bounds.size.width
 #define kCurrentH [UIScreen mainScreen].bounds.size.height
@@ -119,11 +120,10 @@ static NSString *const sectionHeaderID = @"sectionHeader";
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    
+
 //    HTDataBase *database = [HTDataBase getDataBase];
 //    [database deleteTable:@"DELETE FROM t_city;"];
 
-    
     [self readCityData];
     
     [self setupView];
@@ -191,7 +191,22 @@ static NSString *const sectionHeaderID = @"sectionHeader";
     flowLayout.sectionInset = UIEdgeInsetsMake(sectionInsetTop, 10, 10, 20);
     flowLayout.headerReferenceSize = CGSizeMake(100, headerH);
     
-    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0,0,kCurrentW, kCurrentH) collectionViewLayout:flowLayout];
+    
+    HTCollectionViewPlainLayout *plainLayout = [[HTCollectionViewPlainLayout alloc] init];
+    plainLayout.itemSize = CGSizeMake(90,30);
+    plainLayout.minimumLineSpacing = 10;
+    plainLayout.minimumInteritemSpacing = 20;
+    plainLayout.sectionInset = UIEdgeInsetsMake(sectionInsetTop, 10, 10, 20);
+    plainLayout.headerReferenceSize = CGSizeMake(100, headerH);
+
+    
+//    if ([UIDevice currentDevice].systemVersion.floatValue >= 9.0) {
+//        // iOS9 自带悬停效果 以下版本只能自己写
+//        flowLayout.sectionHeadersPinToVisibleBounds = YES;
+//    }
+    
+    
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0,0,kCurrentW, kCurrentH) collectionViewLayout:plainLayout];
     
     [collectionView registerNib:[UINib nibWithNibName:@"HTCityCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"cityCell"];
     
@@ -199,7 +214,7 @@ static NSString *const sectionHeaderID = @"sectionHeader";
     
     collectionView.delegate = self;
     collectionView.dataSource = self;
-    collectionView.decelerationRate = UIScrollViewDecelerationRateFast;
+//    collectionView.decelerationRate = UIScrollViewDecelerationRateFast;
     collectionView.backgroundColor = [UIColor whiteColor];
     collectionView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
     self.cityCollectionView = collectionView;
@@ -235,7 +250,7 @@ static NSString *const sectionHeaderID = @"sectionHeader";
     search.returnKeyType = UIReturnKeyDone;
     search.showsCancelButton = NO;
     search.delegate = self;
-    self.navigationItem.titleView = search;
+//    self.navigationItem.titleView = search;
 }
 
 

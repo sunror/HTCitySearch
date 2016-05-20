@@ -7,41 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045CCE571CD6EA6F00928A75 /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CCE561CD6EA6F00928A75 /* UIColor+hex.m */; settings = {ASSET_TAGS = (); }; };
-		049763D91CD50CFA00C0CB90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763AB1CD50CFA00C0CB90 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		049763DA1CD50CFA00C0CB90 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B01CD50CFA00C0CB90 /* MJExtensionConst.m */; settings = {ASSET_TAGS = (); }; };
-		049763DB1CD50CFA00C0CB90 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B21CD50CFA00C0CB90 /* MJFoundation.m */; settings = {ASSET_TAGS = (); }; };
-		049763DC1CD50CFA00C0CB90 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B41CD50CFA00C0CB90 /* MJProperty.m */; settings = {ASSET_TAGS = (); }; };
-		049763DD1CD50CFA00C0CB90 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B61CD50CFA00C0CB90 /* MJPropertyKey.m */; settings = {ASSET_TAGS = (); }; };
-		049763DE1CD50CFA00C0CB90 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B81CD50CFA00C0CB90 /* MJPropertyType.m */; settings = {ASSET_TAGS = (); }; };
-		049763DF1CD50CFA00C0CB90 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763BA1CD50CFA00C0CB90 /* NSObject+MJClass.m */; settings = {ASSET_TAGS = (); }; };
-		049763E01CD50CFA00C0CB90 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763BC1CD50CFA00C0CB90 /* NSObject+MJCoding.m */; settings = {ASSET_TAGS = (); }; };
-		049763E11CD50CFA00C0CB90 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763BE1CD50CFA00C0CB90 /* NSObject+MJKeyValue.m */; settings = {ASSET_TAGS = (); }; };
-		049763E21CD50CFA00C0CB90 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763C01CD50CFA00C0CB90 /* NSObject+MJProperty.m */; settings = {ASSET_TAGS = (); }; };
-		049763E31CD50CFA00C0CB90 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763C21CD50CFA00C0CB90 /* NSString+MJExtension.m */; settings = {ASSET_TAGS = (); }; };
-		049763EA1CD50CFA00C0CB90 /* citynew.json in Resources */ = {isa = PBXBuildFile; fileRef = 049763CF1CD50CFA00C0CB90 /* citynew.json */; settings = {ASSET_TAGS = (); }; };
-		049763EB1CD50CFA00C0CB90 /* HTCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763D21CD50CFA00C0CB90 /* HTCityCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		049763EC1CD50CFA00C0CB90 /* HTCityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049763D31CD50CFA00C0CB90 /* HTCityCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		049763ED1CD50CFA00C0CB90 /* HTSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763D51CD50CFA00C0CB90 /* HTSectionHeaderView.m */; settings = {ASSET_TAGS = (); }; };
-		049763EE1CD50CFA00C0CB90 /* HTSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049763D61CD50CFA00C0CB90 /* HTSectionHeaderView.xib */; settings = {ASSET_TAGS = (); }; };
-		049763EF1CD50CFA00C0CB90 /* HTCitySelectIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763D81CD50CFA00C0CB90 /* HTCitySelectIndexView.m */; settings = {ASSET_TAGS = (); }; };
-		049763FC1CD50DA800C0CB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763F41CD50DA800C0CB90 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		049763FD1CD50DA800C0CB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049763F51CD50DA800C0CB90 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		049763FE1CD50DA800C0CB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049763F61CD50DA800C0CB90 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		049763FF1CD50DA800C0CB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049763F81CD50DA800C0CB90 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		049764011CD50DA800C0CB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763FB1CD50DA800C0CB90 /* main.m */; settings = {ASSET_TAGS = (); }; };
-		049764031CD50DD100C0CB90 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049764021CD50DD100C0CB90 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		049764061CD50EC800C0CB90 /* HTCityGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 049764051CD50EC800C0CB90 /* HTCityGroup.m */; settings = {ASSET_TAGS = (); }; };
-		049764091CD50F3700C0CB90 /* HTCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 049764081CD50F3700C0CB90 /* HTCity.m */; settings = {ASSET_TAGS = (); }; };
-		0497640D1CD51B9700C0CB90 /* NSString+pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497640C1CD51B9700C0CB90 /* NSString+pinyin.m */; settings = {ASSET_TAGS = (); }; };
-		04FF6D5C1CD5990D00D9B9C1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D511CD5990D00D9B9C1 /* FMDatabase.m */; settings = {ASSET_TAGS = (); }; };
-		04FF6D5D1CD5990D00D9B9C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D531CD5990D00D9B9C1 /* FMDatabaseAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		04FF6D5E1CD5990D00D9B9C1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D551CD5990D00D9B9C1 /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
-		04FF6D5F1CD5990D00D9B9C1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D571CD5990D00D9B9C1 /* FMDatabaseQueue.m */; settings = {ASSET_TAGS = (); }; };
-		04FF6D601CD5990D00D9B9C1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D5A1CD5990D00D9B9C1 /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
-		04FF6D611CD5990D00D9B9C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04FF6D5B1CD5990D00D9B9C1 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		045CCE571CD6EA6F00928A75 /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CCE561CD6EA6F00928A75 /* UIColor+hex.m */; };
+		049763D91CD50CFA00C0CB90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763AB1CD50CFA00C0CB90 /* ViewController.m */; };
+		049763DA1CD50CFA00C0CB90 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B01CD50CFA00C0CB90 /* MJExtensionConst.m */; };
+		049763DB1CD50CFA00C0CB90 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B21CD50CFA00C0CB90 /* MJFoundation.m */; };
+		049763DC1CD50CFA00C0CB90 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B41CD50CFA00C0CB90 /* MJProperty.m */; };
+		049763DD1CD50CFA00C0CB90 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B61CD50CFA00C0CB90 /* MJPropertyKey.m */; };
+		049763DE1CD50CFA00C0CB90 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763B81CD50CFA00C0CB90 /* MJPropertyType.m */; };
+		049763DF1CD50CFA00C0CB90 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763BA1CD50CFA00C0CB90 /* NSObject+MJClass.m */; };
+		049763E01CD50CFA00C0CB90 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763BC1CD50CFA00C0CB90 /* NSObject+MJCoding.m */; };
+		049763E11CD50CFA00C0CB90 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763BE1CD50CFA00C0CB90 /* NSObject+MJKeyValue.m */; };
+		049763E21CD50CFA00C0CB90 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763C01CD50CFA00C0CB90 /* NSObject+MJProperty.m */; };
+		049763E31CD50CFA00C0CB90 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763C21CD50CFA00C0CB90 /* NSString+MJExtension.m */; };
+		049763EA1CD50CFA00C0CB90 /* citynew.json in Resources */ = {isa = PBXBuildFile; fileRef = 049763CF1CD50CFA00C0CB90 /* citynew.json */; };
+		049763EB1CD50CFA00C0CB90 /* HTCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763D21CD50CFA00C0CB90 /* HTCityCollectionViewCell.m */; };
+		049763EC1CD50CFA00C0CB90 /* HTCityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049763D31CD50CFA00C0CB90 /* HTCityCollectionViewCell.xib */; };
+		049763ED1CD50CFA00C0CB90 /* HTSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763D51CD50CFA00C0CB90 /* HTSectionHeaderView.m */; };
+		049763EE1CD50CFA00C0CB90 /* HTSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049763D61CD50CFA00C0CB90 /* HTSectionHeaderView.xib */; };
+		049763EF1CD50CFA00C0CB90 /* HTCitySelectIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763D81CD50CFA00C0CB90 /* HTCitySelectIndexView.m */; };
+		049763FC1CD50DA800C0CB90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763F41CD50DA800C0CB90 /* AppDelegate.m */; };
+		049763FD1CD50DA800C0CB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049763F51CD50DA800C0CB90 /* Assets.xcassets */; };
+		049763FE1CD50DA800C0CB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049763F61CD50DA800C0CB90 /* LaunchScreen.storyboard */; };
+		049763FF1CD50DA800C0CB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049763F81CD50DA800C0CB90 /* Main.storyboard */; };
+		049764011CD50DA800C0CB90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049763FB1CD50DA800C0CB90 /* main.m */; };
+		049764031CD50DD100C0CB90 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049764021CD50DD100C0CB90 /* Info.plist */; };
+		049764061CD50EC800C0CB90 /* HTCityGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 049764051CD50EC800C0CB90 /* HTCityGroup.m */; };
+		049764091CD50F3700C0CB90 /* HTCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 049764081CD50F3700C0CB90 /* HTCity.m */; };
+		0497640D1CD51B9700C0CB90 /* NSString+pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497640C1CD51B9700C0CB90 /* NSString+pinyin.m */; };
+		04FF6D5C1CD5990D00D9B9C1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D511CD5990D00D9B9C1 /* FMDatabase.m */; };
+		04FF6D5D1CD5990D00D9B9C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D531CD5990D00D9B9C1 /* FMDatabaseAdditions.m */; };
+		04FF6D5E1CD5990D00D9B9C1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D551CD5990D00D9B9C1 /* FMDatabasePool.m */; };
+		04FF6D5F1CD5990D00D9B9C1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D571CD5990D00D9B9C1 /* FMDatabaseQueue.m */; };
+		04FF6D601CD5990D00D9B9C1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D5A1CD5990D00D9B9C1 /* FMResultSet.m */; };
+		04FF6D611CD5990D00D9B9C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04FF6D5B1CD5990D00D9B9C1 /* Info.plist */; };
 		04FF6D631CD5992000D9B9C1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FF6D621CD5992000D9B9C1 /* libsqlite3.tbd */; };
-		04FF6D671CD5A1BE00D9B9C1 /* HTDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D661CD5A1BE00D9B9C1 /* HTDataBase.m */; settings = {ASSET_TAGS = (); }; };
+		04FF6D671CD5A1BE00D9B9C1 /* HTDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF6D661CD5A1BE00D9B9C1 /* HTDataBase.m */; };
+		E35B441B1CEF03FB00BEEE78 /* HTCollectionViewPlainLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E35B441A1CEF03FB00BEEE78 /* HTCollectionViewPlainLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,8 @@
 		04FF6D621CD5992000D9B9C1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		04FF6D651CD5A1BE00D9B9C1 /* HTDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDataBase.h; sourceTree = "<group>"; };
 		04FF6D661CD5A1BE00D9B9C1 /* HTDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDataBase.m; sourceTree = "<group>"; };
+		E35B44191CEF03FB00BEEE78 /* HTCollectionViewPlainLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCollectionViewPlainLayout.h; sourceTree = "<group>"; };
+		E35B441A1CEF03FB00BEEE78 /* HTCollectionViewPlainLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCollectionViewPlainLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		049763A81CD50CFA00C0CB90 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				E35B44181CEF03FB00BEEE78 /* UICollectionViewLayout */,
 				04FF6D641CD5A18E00D9B9C1 /* tools */,
 				049763D01CD50CFA00C0CB90 /* view */,
 				0497640A1CD51B7E00C0CB90 /* category */,
@@ -289,6 +293,15 @@
 			path = tools;
 			sourceTree = "<group>";
 		};
+		E35B44181CEF03FB00BEEE78 /* UICollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E35B44191CEF03FB00BEEE78 /* HTCollectionViewPlainLayout.h */,
+				E35B441A1CEF03FB00BEEE78 /* HTCollectionViewPlainLayout.m */,
+			);
+			path = UICollectionViewLayout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -381,6 +394,7 @@
 				049764011CD50DA800C0CB90 /* main.m in Sources */,
 				049763E11CD50CFA00C0CB90 /* NSObject+MJKeyValue.m in Sources */,
 				04FF6D5F1CD5990D00D9B9C1 /* FMDatabaseQueue.m in Sources */,
+				E35B441B1CEF03FB00BEEE78 /* HTCollectionViewPlainLayout.m in Sources */,
 				049763E01CD50CFA00C0CB90 /* NSObject+MJCoding.m in Sources */,
 				049763ED1CD50CFA00C0CB90 /* HTSectionHeaderView.m in Sources */,
 				049763D91CD50CFA00C0CB90 /* ViewController.m in Sources */,
@@ -434,7 +448,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: chunlei sun (6YFR93L5P3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chunlei sun (6YFR93L5P3)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -456,6 +471,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "90a9d43f-c7d6-4637-afc6-4214e62c53f7";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -479,7 +495,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: chunlei sun (6YFR93L5P3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chunlei sun (6YFR93L5P3)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -494,6 +511,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "90a9d43f-c7d6-4637-afc6-4214e62c53f7";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -504,14 +522,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: chunlei sun (6YFR93L5P3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chunlei sun (6YFR93L5P3)";
 				INFOPLIST_FILE = "城市搜索数据库/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scl.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "90a9d43f-c7d6-4637-afc6-4214e62c53f7";
 			};
 			name = Debug;
 		};
@@ -519,14 +537,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: chunlei sun (6YFR93L5P3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chunlei sun (6YFR93L5P3)";
 				INFOPLIST_FILE = "城市搜索数据库/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scl.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "90a9d43f-c7d6-4637-afc6-4214e62c53f7";
 			};
 			name = Release;
 		};
